@@ -1,0 +1,94 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "marília",
+      "age": 30,
+      "study": "LEI"
+    },
+    {
+      "id": 2,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 2,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 2,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 2,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 2,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 7,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 8,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 9,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 10,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 11,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 12,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 13,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 14,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    },
+    {
+      "id": 15,
+      "name": "abelardo",
+      "age": 23,
+      "study": "Turismo"
+    }
+  ]
+}
