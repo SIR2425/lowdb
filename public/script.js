@@ -1,6 +1,7 @@
 // TODO: this code has to be modified to support API calls
 // to get, update, create and delete elements
 
+// fetch records and populate the table
 fetch('/students')
  .then(response => response.json())
  .then( data => {
@@ -8,12 +9,13 @@ fetch('/students')
     renderItems(data);})
  .catch(error => console.error('Error:', error));
 
-
+// not needed anymore
 let items = [
     { id: 1, prop1: "Value 1A", prop2: "Value 1B", prop3: "Value 1C" },
     { id: 2, prop1: "Value 2A", prop2: "Value 2B", prop3: "Value 2C" },
   ];
   
+// modified to pass data to render as an argument
   function renderItems(items) {
     const tableBody = document.getElementById("itemsTable").querySelector("tbody");
     tableBody.innerHTML = ""; // Clear existing rows
@@ -21,8 +23,7 @@ let items = [
 
     items.forEach((item, index) => {
       const row = document.createElement("tr");
-  
-  
+
       // TODO or to think. maybe using addEventListener instead of using direct event listeners.
       row.innerHTML = `
         <td>${item.id}</td>
@@ -38,7 +39,7 @@ let items = [
     });
   }
   
-  
+  // TODO TODO TODO TODO TODO TODO TOD
   // TODO : every time a resource is created, updated or deleted, 
   // we need to get all from the database 
   // fetch GET
@@ -83,6 +84,8 @@ let items = [
     document.getElementById("newProp3").value = "";
   }
   
+
+  // todo : maybe fetching all data from renderItems would more intereting  
   // Initial render
   renderItems();
   

@@ -1,3 +1,6 @@
+// example of using lowdb
+// see appsample.js for an API prototype
+
 import { JSONFilePreset } from 'lowdb/node';
 
 const defaultData = { users: [] }
