@@ -8,14 +8,14 @@ código exemplo para atividade prática 2
 
 ## todo
 ### no servodor // at the server 
-implement other routes
-organize code 
-appropriate  status codes / errors
+* implement other routes
+* organize code 
+* appropriate  status codes / errors
 
 ### no cliente // at the client
-other fetches PUT, POST, DELETE
-reorganize code
-every time some update to the database is done you should render it again.
+* other fetches PUT, POST, DELETE
+* reorganize code
+* notice : every time there is an update to the database you should render its contents again.
 
 ## run and test #1
 * clone the repository
