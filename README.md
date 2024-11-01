@@ -19,3 +19,13 @@ other fetches PUT, POST, DELETE
 reorganize code
 every time some update to the database is done you should render it again.
 
+# To test #1
+* clone the repository
+* `npm install`
+* `npm start` ou `npm run start`
+* open  a browser http://localhost:3000/table.html
+* checkout thar the contents od students.json is fetched via API and displayed in the client side.
+
+# To test #2
+there is another demo app `applow.js`, just for a simpe lowdb working example on the server side, which can be tested. just adds and updates records to the database.
+* `npm run startlow`
